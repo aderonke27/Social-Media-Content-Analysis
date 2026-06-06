@@ -1,13 +1,5 @@
 # Social-Media-Content-Analysis
 
-# Social Media Content Analysis
-
-![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Domain](https://img.shields.io/badge/Domain-Social%20Media%20%7C%20Content%20Analytics-blue)
-
----
-
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Problem Statement](#problem-statement)
@@ -23,8 +15,6 @@
 12. [Conclusion](#conclusion)
 13. [Project Files](#project-files)
 14. [Contact Information](#contact-information)
-
----
 
 ## Project Overview
 
@@ -218,31 +208,12 @@ The project includes an interactive Excel dashboard built with PivotCharts, slic
 ---
 
 ## Conclusion
-
 This analysis of 5,600 social media posts across six platforms and eight global regions revealed clear patterns in what drives content performance. YouTube and TikTok lead in engagement, video content dominates all other formats by a wide margin, and the 11am–4pm window on Wednesdays and Saturdays consistently delivers peak audience interaction. Educational and Product Promotion content are the highest-performing categories, while #ProductDemo and #CustomerStory hashtags generate the most impressive reach.
 
 These insights provide a data-driven foundation for social media managers, content strategists, and marketing teams to make smarter decisions around platform investment, content planning, posting schedules, and audience targeting — ultimately improving social media performance and return on content investment.
 
----
-
 ## Project Files
 
-| File | Description |
-|---|---|
-| `Social_Media_Content_Analysis.xlsx` | Main Excel workbook containing raw data, analysis sheets, and dashboard |
-
----
-
 ## Contact Information
-
-**Aladeloye Esther Aderonke**
-Data & Business Analyst | Healthcare · Business · Finance
-
-- 📧 Email: aladeloyeesther616@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/estheraderonke](https://linkedin.com/in/estheraderonke)
-- 🐙 GitHub: [github.com/aderonke27](https://github.com/aderonke27)
-- 📱 Phone: +234 810 636 6936
-
----
-
-*This project was completed as part of a data analytics portfolio demonstrating social media analytics, content performance analysis, and data-driven strategic recommendations.*
+* Email: aladeloyeesther616@gmail.com
+* LinkedIn: https://linkedin.com/in/estheraderonke
