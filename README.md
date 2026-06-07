@@ -17,121 +17,57 @@
 14. [Contact Information](#contact-information)
 
 ## Project Overview
-
-This project presents a comprehensive social media content performance analysis across six major platforms — YouTube, TikTok, Instagram, X.com, LinkedIn, and Facebook — using Microsoft Excel. The dataset covers **5,600 posts** spanning multiple regions, content types, and post formats, capturing a wide range of engagement, reach, and audience interaction metrics.
+This project presents a comprehensive social media content performance analysis across six major platforms — YouTube, TikTok, Instagram, X.com, LinkedIn, and Facebook — using Microsoft Excel. The dataset covers 5,600 posts spanning multiple regions, content types, and post formats, capturing a wide range of engagement, reach, and audience interaction metrics.
 
 The goal of this analysis was to identify which platforms, content categories, post types, regions, and time slots drive the highest engagement — enabling data-driven decisions around content strategy, posting schedules, and audience targeting to maximise social media performance.
 
----
-
 ## Problem Statement
-
 Brands and content creators publishing across multiple social media platforms face a significant challenge: without a structured view of what content performs best, where, when, and for whom, resources are wasted on low-performing strategies while high-impact opportunities are missed.
 
 This analysis addresses that challenge by examining 5,600 posts across six platforms and eight global regions to uncover which content formats, categories, and time slots consistently drive the strongest engagement and impressions.
 
----
-
 ## Objectives
-
-- Evaluate total engagement, views, likes, shares, and comments across all platforms
-- Identify which platforms generate the highest audience engagement
-- Determine which content categories and post types perform best
-- Analyse regional performance to identify where audiences are most active
-- Uncover peak posting times and days for maximum reach
-- Compare organic versus sponsored content performance
-- Deliver strategic recommendations to improve content planning and social media ROI
-
----
+* Evaluate total engagement, views, likes, shares, and comments across all platforms
+* Identify which platforms generate the highest audience engagement
+* Determine which content categories and post types perform best
+* Analyse regional performance to identify where audiences are most active
+* Uncover peak posting times and days for maximum reach
+* Compare organic versus sponsored content performance
+* Deliver strategic recommendations to improve content planning and social media ROI
 
 ## Dataset Description
+The dataset contains 5,600 social media posts published across six platforms and eight global regions, with each record capturing a comprehensive set of performance metrics and post attributes.
 
-The dataset contains **5,600 social media posts** published across six platforms and eight global regions, with each record capturing a comprehensive set of performance metrics and post attributes.
+The Post_ID field uniquely identifies each post, while Platform specifies the social media channel — YouTube, TikTok, Instagram, X.com, LinkedIn, or Facebook. The Content_Type field distinguishes between organic and sponsored posts, and Content_Category classifies each post by purpose — including Product Promotion, Educational, Entertainment, Customer Story, and Event/Webinar content. The Post_Type field captures the format of each post, covering Video, Image, Carousel, Live Stream, Text, Article, and PDF formats.
 
-The **Post_ID** field uniquely identifies each post, while **Platform** specifies the social media channel — YouTube, TikTok, Instagram, X.com, LinkedIn, or Facebook. The **Content_Type** field distinguishes between organic and sponsored posts, and **Content_Category** classifies each post by purpose — including Product Promotion, Educational, Entertainment, Customer Story, and Event/Webinar content. The **Post_Type** field captures the format of each post, covering Video, Image, Carousel, Live Stream, Text, Article, and PDF formats.
+Geographic fields include Region, Longitude, and Latitude, covering posts from the USA, UK, India, Brazil, Australia, Canada, Germany, and Japan. Core engagement metrics include Engagement (total interactions), Views, Likes, Shares, and Comments, with Engagement_Rate expressing interaction as a proportion of reach. Reach and visibility are captured through Impressions, Video_Views, Live_Stream_Views, and Clicks, with the Click_Through_Rate field measuring how often viewers took action after seeing a post.
 
-Geographic fields include **Region**, **Longitude**, and **Latitude**, covering posts from the USA, UK, India, Brazil, Australia, Canada, Germany, and Japan. Core engagement metrics include **Engagement** (total interactions), **Views**, **Likes**, **Shares**, and **Comments**, with **Engagement_Rate** expressing interaction as a proportion of reach. Reach and visibility are captured through **Impressions**, **Video_Views**, **Live_Stream_Views**, and **Clicks**, with the **Click_Through_Rate** field measuring how often viewers took action after seeing a post.
-
-Time-based fields include **Post_Published_At**, **Post_Date**, **Day_Name**, **Post_Hour**, and a derived **Column2** time slot field (e.g. 8am–10am, 11am–1pm) that enables time-of-day analysis. The **Main_Hashtag** field records the primary hashtag used per post, and **Engagement_Level** classifies each post's performance as Low, Medium, or High.
-
-**Dataset Summary:**
-- Total Posts: 5,600
-- Total Engagement: 646,491,442
-- Total Views: 4,806,275,234
-- Total Impressions: 5,766,555,744
-- Total Likes: 844,033,364
-- Total Shares: 267,035,483
-- Total Comments: 193,286,656
-- Total Video Views: 3,589,419,167
-- Total Live Stream Views: 549,313,009
-- Platforms: YouTube, TikTok, Instagram, X.com, LinkedIn, Facebook
-- Regions: USA, UK, India, Brazil, Japan, Australia, Canada, Germany
-
----
+Time-based fields include Post_Published_At, Post_Date, Day_Name, Post_Hour, and a derived Column2 time slot field (e.g. 8am–10am, 11am–1pm) that enables time-of-day analysis. The Main_Hashtag field records the primary hashtag used per post, and Engagement_Level classifies each post's performance as Low, Medium, or High.
 
 ## Tools Used
-
-- **Microsoft Excel** — Data cleaning, pivot table analysis, and dashboard development
-  - PivotTables — for multi-dimensional aggregation across platform, region, content type, and time
-  - PivotCharts — for visual representation of engagement trends and performance comparisons
-  - Conditional Formatting — for highlighting top-performing posts and engagement levels
-  - Slicers — for interactive filtering on the dashboard
-  - Formulas — SUMIF, AVERAGEIF, COUNTIF, and calculated fields for KPI derivation
-
----
+Microsoft Excel
 
 ## Data Cleaning Process
-
 Before analysis, the dataset was reviewed and prepared to ensure accuracy and consistency:
-
-- **Date and time formatting** — Post published dates were stored as serial numbers and were converted to readable date formats. The Post_Hour field was used to derive time slot categories for time-of-day analysis
-- **Column labelling** — Generic column names (Column1, Column2) were reviewed and relabelled based on the values they contained to improve clarity during analysis
-- **Data type validation** — Engagement metrics, rates, and coordinate fields were verified and formatted correctly for aggregation in PivotTables
-- **Engagement Rate and Click-Through Rate formatting** — Values stored in scientific notation were converted and formatted as percentages for readability
-- **Missing values** — Fields such as Clicks, Click_Through_Rate, Video_Views, and Live_Stream_Views contained blank entries for non-applicable post types (e.g. text posts have no video views), which were reviewed and excluded from relevant calculations rather than treated as errors
-- **Engagement Level classification** — The Engagement_Level field (High, Medium, Low) was verified for consistency and used as a key segmentation variable throughout the analysis
-
----
+* Date and time formatting — Post published dates were stored as serial numbers and were converted to readable date formats. The Post_Hour field was used to derive time slot categories for time-of-day analysis
+* Column labelling — Generic column names (Column1, Column2) were reviewed and relabelled based on the values they contained to improve clarity during analysis
+* Data type validation — Engagement metrics, rates, and coordinate fields were verified and formatted correctly for aggregation in PivotTables
+* Engagement Rate and Click-Through Rate formatting — Values stored in scientific notation were converted and formatted as percentages for readability
+* Missing values — Fields such as Clicks, Click_Through_Rate, Video_Views, and Live_Stream_Views contained blank entries for non-applicable post types (e.g. text posts have no video views), which were reviewed and excluded from relevant calculations rather than treated as errors
+* Engagement Level classification — The Engagement_Level field (High, Medium, Low) was verified for consistency and used as a key segmentation variable throughout the analysis
 
 ## Data Analysis
-
 The analysis was structured across six key dimensions:
+* Platform Performance: Total engagement, views, and impressions were aggregated by platform to identify which channels deliver the highest audience interaction and reach.
+* Content Category Analysis: Posts were grouped by content category — Product Promotion, Educational, Entertainment, Customer Story, and Event/Webinar — to determine which types of content consistently drive the most engagement.
+* Post Type Analysis: Performance was compared across post formats — Video, Image, Carousel, Live Stream, Text, Article, and PDF — to identify the most effective content delivery method by views and engagement.
+* Regional Performance: Engagement was broken down by region to identify which markets are most active and where content resonates most strongly with audiences.
+* Time and Day Analysis: Engagement was analysed by day of the week and time slot (8am–10am, 11am–1pm, 2pm–4pm, 5pm–7pm) to uncover peak posting windows across the dataset.
+* Organic vs. Sponsored Content: The performance of organic posts (4,646) was compared against sponsored content (954) across all regions to evaluate the return on paid content investment.
 
-**1. Platform Performance**
-Total engagement, views, and impressions were aggregated by platform to identify which channels deliver the highest audience interaction and reach.
-
-**2. Content Category Analysis**
-Posts were grouped by content category — Product Promotion, Educational, Entertainment, Customer Story, and Event/Webinar — to determine which types of content consistently drive the most engagement.
-
-**3. Post Type Analysis**
-Performance was compared across post formats — Video, Image, Carousel, Live Stream, Text, Article, and PDF — to identify the most effective content delivery method by views and engagement.
-
-**4. Regional Performance**
-Engagement was broken down by region to identify which markets are most active and where content resonates most strongly with audiences.
-
-**5. Time and Day Analysis**
-Engagement was analysed by day of the week and time slot (8am–10am, 11am–1pm, 2pm–4pm, 5pm–7pm) to uncover peak posting windows across the dataset.
-
-**6. Organic vs. Sponsored Content**
-The performance of organic posts (4,646) was compared against sponsored content (954) across all regions to evaluate the return on paid content investment.
-
----
 
 ## Dashboard
 
-The project includes an interactive Excel dashboard built with PivotCharts, slicers, and conditional formatting, providing a visual overview of:
-
-- Platform-by-platform engagement comparison
-- Content category and post type performance breakdown
-- Regional engagement distribution
-- Day-of-week and time slot engagement heatmap
-- Organic vs. sponsored content performance
-- Top hashtag performance by impressions
-- Engagement level distribution (High, Medium, Low)
-
-> 📁 Dashboard screenshots are available in the repository files below.
-
----
 
 ## Key Insights
 
@@ -195,17 +131,12 @@ The project includes an interactive Excel dashboard built with PivotCharts, slic
 
 8. **Increase Live Stream content** — With 549,313,009 live stream views, live content generates significant audience interest. Brands should consider incorporating regular live sessions into their content mix, particularly for events and product launches.
 
----
-
 ## Limitations
-
-- **No demographic breakdown** — The dataset does not include audience age, gender, or interest data, limiting the ability to analyse which audience segments are most engaged
-- **No cost data for sponsored posts** — Without knowing the budget behind sponsored content, it is not possible to calculate ROI or cost per engagement for paid campaigns
-- **Platform algorithm changes not accounted for** — Social media algorithms evolve frequently and can significantly affect reach and engagement, factors not captured in the dataset
-- **Hashtag data incomplete** — Not all posts had a Main_Hashtag recorded, which may underrepresent the full impact of hashtag-driven reach
-- **Click data missing for many posts** — The Clicks and Click_Through_Rate fields contained significant blank entries, limiting the depth of conversion and action-based analysis
-
----
+* No demographic breakdown — The dataset does not include audience age, gender, or interest data, limiting the ability to analyse which audience segments are most engaged
+* No cost data for sponsored posts — Without knowing the budget behind sponsored content, it is not possible to calculate ROI or cost per engagement for paid campaigns
+* Platform algorithm changes not accounted for — Social media algorithms evolve frequently and can significantly affect reach and engagement, factors not captured in the dataset
+* Hashtag data incomplete — Not all posts had a Main_Hashtag recorded, which may underrepresent the full impact of hashtag-driven reach
+* Click data missing for many posts — The Clicks and Click_Through_Rate fields contained significant blank entries, limiting the depth of conversion and action-based analysis
 
 ## Conclusion
 This analysis of 5,600 social media posts across six platforms and eight global regions revealed clear patterns in what drives content performance. YouTube and TikTok lead in engagement, video content dominates all other formats by a wide margin, and the 11am–4pm window on Wednesdays and Saturdays consistently delivers peak audience interaction. Educational and Product Promotion content are the highest-performing categories, while #ProductDemo and #CustomerStory hashtags generate the most impressive reach.
@@ -213,6 +144,12 @@ This analysis of 5,600 social media posts across six platforms and eight global 
 These insights provide a data-driven foundation for social media managers, content strategists, and marketing teams to make smarter decisions around platform investment, content planning, posting schedules, and audience targeting — ultimately improving social media performance and return on content investment.
 
 ## Project Files
+[View main Excel workbook](./Social_Media_Content_Analysis)
+
+The Excel workbook contains:
+* The raw dataset
+* The analysis sheet
+* The dashboard
 
 ## Contact Information
 * Email: aladeloyeesther616@gmail.com
