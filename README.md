@@ -117,7 +117,7 @@ This analysis of 5,600 social media posts across six platforms and eight global 
 These insights provide a data-driven foundation for social media managers, content strategists, and marketing teams to make smarter decisions around platform investment, content planning, posting schedules, and audience targeting — ultimately improving social media performance and return on content investment.
 
 ## Project Files
-[View main Excel workbook](./Social_Media_Content_Analysis)
+[View main Excel workbook](./Social_Media_Content_Analysis.xlsx)
 
 The Excel workbook contains:
 * The raw dataset
