@@ -65,71 +65,44 @@ The analysis was structured across six key dimensions:
 * Time and Day Analysis: Engagement was analysed by day of the week and time slot (8am–10am, 11am–1pm, 2pm–4pm, 5pm–7pm) to uncover peak posting windows across the dataset.
 * Organic vs. Sponsored Content: The performance of organic posts (4,646) was compared against sponsored content (954) across all regions to evaluate the return on paid content investment.
 
-
 ## Dashboard
-
+<img width="1392" height="820" alt="Screenshot (190)" src="https://github.com/user-attachments/assets/9aea9d6b-94ef-4f93-ad17-d51f50b9f85d" />
 
 ## Key Insights
-
-**Platform Performance**
-- **YouTube** generated the highest total engagement at **151,399,907**, closely followed by **TikTok (146,646,344)** and **Instagram (134,738,386)**
-- **LinkedIn** and **Facebook** were the lowest-performing platforms with **44,731,424** and **35,701,985** engagements respectively
-- YouTube also dominated in video views and live stream metrics, reinforcing its position as the top platform for long-form and video content
-
-**Content Category Performance**
-- **Educational content** drove the highest engagement at **238,044,553**, closely followed by **Product Promotion at 223,339,503**
-- **Event/Webinar content** had the lowest engagement at **30,586,034**, suggesting it appeals to a more niche audience segment
-- **Customer Story** content generated **72,692,576** engagements — a strong category for building trust and relatability
-
-**Post Type Performance**
-- **Video** posts dominated views with **3,641,141,686 views**, far exceeding all other formats
-- **Live Stream** content accumulated **349,751,811 views**, making it the second most-viewed format
-- **Image posts** led in non-video reach with **357,758,451 views**
-- **PDF and Article** formats had the lowest view counts, suggesting limited organic reach on social platforms
-
-**Regional Performance**
-- **USA** generated the highest total engagement at **90,559,635**, followed by **Japan (82,781,768)** and **Brazil (82,642,904)**
-- **Germany** had the lowest regional engagement at **71,288,254**, though still substantial in absolute terms
-- Across all regions, **sponsored content consistently outperformed organic on a per-post basis**, with the USA leading in both organic and sponsored performance
-
-**Peak Posting Times**
-- The **2pm–4pm time slot** generated the highest total engagement at **193,187,693**, closely followed by **11am–1pm (192,102,605)**
-- **Wednesday** was the strongest performing day with **100,405,596 engagements**, followed by **Saturday (97,835,985)**
-- **Tuesday** was the weakest day at **87,456,626 engagements**
-- The **8am–10am** and **5pm–7pm** slots were consistently the lowest performing across all days
-
-**Hashtag Performance**
-- **#ProductDemo** drove the highest impressions at **1,963,906,537**, making it the most impactful hashtag in the dataset
-- **#CustomerStory** followed with **1,212,705,940 impressions**, reinforcing the value of storytelling content
-- **#FeatureHighlight** had the lowest impressions at **198,290,143**
-
-**Organic vs. Sponsored**
-- Of the 5,600 posts, **4,646 were organic (83%)** and **954 were sponsored (17%)**
-- Despite the lower volume, sponsored content delivered strong engagement, particularly in the USA and UK
-
-**Engagement Level Distribution**
-- **Medium engagement** was the most common outcome with **3,110 posts (55.5%)**
-- **High engagement** posts accounted for **1,320 (23.6%)** and **Low engagement for 1,170 (20.9%)**
-
----
+* YouTube generated the highest total engagement at 151,399,907, closely followed by TikTok (146,646,344) and Instagram (134,738,386)
+* LinkedIn and Facebook were the lowest-performing platforms with 44,731,424 and 35,701,985 engagements respectively
+* YouTube also dominated in video views and live stream metrics, reinforcing its position as the top platform for long-form and video content
+* Educational content drove the highest engagement at 238,044,553, closely followed by Product Promotion at 223,339,503
+* Event/Webinar content had the lowest engagement at 30,586,034, suggesting it appeals to a more niche audience segment
+* Customer Story content generated 72,692,576 engagements — a strong category for building trust and relatability
+* Video posts dominated views with 3,641,141,686 views, far exceeding all other formats
+* Live Stream content accumulated 349,751,811 views, making it the second most-viewed format
+* Image posts led in non-video reach with 357,758,451 views
+* PDF and Article formats had the lowest view counts, suggesting limited organic reach on social platforms
+* USA generated the highest total engagement at 90,559,635, followed by Japan (82,781,768) and Brazil (82,642,904)
+* Germany had the lowest regional engagement at 71,288,254, though still substantial in absolute terms
+* Across all regions, sponsored content consistently outperformed organic on a per-post basis, with the USA leading in both organic and sponsored performance
+* The 2pm–4pm time slot generated the highest total engagement at 193,187,693, closely followed by 11am–1pm (192,102,605)
+* Wednesday was the strongest performing day with 100,405,596 engagements, followed by Saturday (97,835,985)
+* Tuesday was the weakest day at 87,456,626 engagements
+* The 8am–10am and 5pm–7pm slots were consistently the lowest performing across all days
+* ProductDemo drove the highest impressions at 1,963,906,537, making it the most impactful hashtag in the dataset
+* #CustomerStory followed with 1,212,705,940 impressions, reinforcing the value of storytelling content
+* #FeatureHighlight had the lowest impressions at 198,290,143
+* Of the 5,600 posts, 4,646 were organic (83%) and 954 were sponsored (17%)
+* Despite the lower volume, sponsored content delivered strong engagement, particularly in the USA and UK
+* Medium engagement was the most common outcome with 3,110 posts (55.5%)
+* High engagement posts accounted for 1,320 (23.6%) and Low engagement for 1,170 (20.9%)
 
 ## Recommendations
-
-1. **Prioritise YouTube and TikTok for video content** — Both platforms lead in engagement and video views. Increasing the volume and quality of video content on these platforms should be a core content strategy priority.
-
-2. **Double down on Educational and Product Promotion content** — These two categories consistently drive the highest engagement. Content calendars should allocate the majority of posts to these categories.
-
-3. **Post during the 11am–1pm and 2pm–4pm windows** — These time slots consistently generate the highest engagement across all days. Scheduling posts within these windows maximises the likelihood of reaching active audiences.
-
-4. **Target Wednesdays and Saturdays for high-priority content** — These days deliver the strongest overall engagement and are ideal for launching campaigns, product announcements, or high-value content.
-
-5. **Leverage #ProductDemo and #CustomerStory hashtags** — These hashtags drove the highest impressions and should be incorporated into content planning for maximum organic reach.
-
-6. **Expand USA and Japan market strategy** — As the top two performing regions, these markets warrant increased content investment, tailored messaging, and potentially higher sponsored spend.
-
-7. **Review LinkedIn and Facebook strategy** — Both platforms significantly underperform compared to other channels. The content format, posting frequency, or audience targeting strategy on these platforms may need to be revisited.
-
-8. **Increase Live Stream content** — With 549,313,009 live stream views, live content generates significant audience interest. Brands should consider incorporating regular live sessions into their content mix, particularly for events and product launches.
+* Prioritise YouTube and TikTok for video content — Both platforms lead in engagement and video views. Increasing the volume and quality of video content on these platforms should be a core content strategy priority.
+* Double down on Educational and Product Promotion content — These two categories consistently drive the highest engagement. Content calendars should allocate the majority of posts to these categories.
+* Post during the 11am–1pm and 2pm–4pm windows — These time slots consistently generate the highest engagement across all days. Scheduling posts within these windows maximises the likelihood of reaching active audiences.
+* Target Wednesdays and Saturdays for high-priority content — These days deliver the strongest overall engagement and are ideal for launching campaigns, product announcements, or high-value content.
+* Leverage #ProductDemo and #CustomerStory hashtags — These hashtags drove the highest impressions and should be incorporated into content planning for maximum organic reach.
+* Expand USA and Japan market strategy — As the top two performing regions, these markets warrant increased content investment, tailored messaging, and potentially higher sponsored spend.
+* Review LinkedIn and Facebook strategy — Both platforms significantly underperform compared to other channels. The content format, posting frequency, or audience targeting strategy on these platforms may need to be revisited.
+* Increase Live Stream content — With 549,313,009 live stream views, live content generates significant audience interest. Brands should consider incorporating regular live sessions into their content mix, particularly for events and product launches.
 
 ## Limitations
 * No demographic breakdown — The dataset does not include audience age, gender, or interest data, limiting the ability to analyse which audience segments are most engaged
